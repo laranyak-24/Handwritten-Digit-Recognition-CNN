@@ -5,12 +5,16 @@
 This project focuses on recognizing handwritten digits (0–9) using a Convolutional Neural Network (CNN). The model is developed using Python and TensorFlow/Keras and trained on the MNIST dataset.
 
 
+
+
 2. OBJECTIVES
 
 * To recognize handwritten digits automatically.
 * To understand and implement CNN architecture.
 * To train and evaluate a deep learning model.
 * To achieve accurate digit classification.
+
+
 
 
 3. DATASET
@@ -23,6 +27,8 @@ The MNIST dataset contains 70,000 grayscale handwritten digit images.
 * Classes: Digits 0 to 9
 
 
+
+
 4. TECHNOLOGY USED
 
 * Python
@@ -33,12 +39,16 @@ The MNIST dataset contains 70,000 grayscale handwritten digit images.
 * MNIST Dataset
 
 
+
+
 5. DATA PREPROCESSING
 
 * Loaded the MNIST dataset.
 * Normalized pixel values between 0 and 1.
 * Reshaped images to include a grayscale channel.
 * Prepared training and testing data.
+
+
 
 
 6. CNN MODEL ARCHITECTURE
@@ -55,6 +65,8 @@ The CNN model consists of:
 * Output Layer (10 neurons with Softmax activation)
 
 
+
+
 7. MODEL TRAINING
 
 The model was trained using:
@@ -66,6 +78,8 @@ The model was trained using:
 * Validation Split: 10%
 
 
+
+
 8. MODEL EVALUATION
 
 The model was evaluated using the MNIST test dataset.
@@ -74,9 +88,13 @@ The model was evaluated using the MNIST test dataset.
 * Test Loss: 0.02949
 
 
+
+
 9. RESULTS
 
 The CNN model successfully recognizes handwritten digits with high accuracy. Training and validation accuracy/loss graphs and a confusion matrix were generated to evaluate its performance.
+
+
 
 
 10. SAMPLE PREDICTION
@@ -88,6 +106,8 @@ The model correctly predicted the sample handwritten digit.
 * Confidence: 100%
 
 
+
+
 11. PROJECT FILES
 
 * Handwritten_Digit_Recognition_CNN.ipynb – Jupyter Notebook
@@ -96,9 +116,13 @@ The model correctly predicted the sample handwritten digit.
 * 11 screenshots showing code execution and outputs
 
 
+
+
 12. CONCLUSION
 
 This project demonstrates the application of Convolutional Neural Networks in handwritten digit recognition. The trained model achieved 99.00% test accuracy on the MNIST dataset, demonstrating effective digit classification.
+
+
 
 
 13. FUTURE SCOPE
